@@ -9,9 +9,9 @@ const page = () => {
   return (
     <main>
       <div className="aside">
-        <ul className="flex flex-col justify-between h-screen w-16 hover:w-60 overflow-hidden transition-all border-r-2 border-white/20">
+        <ul className="flex flex-col justify-between h-screen w-16 hover:w-60 overflow-hidden transition-all dark:border-white/20 border-black/20 border-r-[1px]">
           <div className="upper">
-            <li className="whitespace-nowrap flex items-center cursor-pointer hover:bg-white/10">
+            <li className="whitespace-nowrap flex items-center cursor-pointer dark:hover:bg-white/10 hover:bg-black/10">
               <span className="p-8 w-16 flex justify-center">
                 <Image
                   src={fire}
@@ -23,7 +23,7 @@ const page = () => {
             </li>
           </div>
           <div className="middle">
-            <li className="whitespace-nowrap flex items-center cursor-pointer hover:bg-white/10">
+            <li className="whitespace-nowrap flex items-center cursor-pointer dark:hover:bg-white/10 hover:bg-black/10">
               <span className="p-8 w-16 flex justify-center">
                 <Image
                   src={home}
@@ -33,7 +33,7 @@ const page = () => {
               </span>
               <span>Home</span>
             </li>
-            <li className="whitespace-nowrap flex items-center cursor-pointer hover:bg-white/10">
+            <li className="whitespace-nowrap flex items-center cursor-pointer dark:hover:bg-white/10 hover:bg-black/10">
               <span className="p-8 w-16 flex justify-center">
                 <Image
                   src={chat}
@@ -45,7 +45,7 @@ const page = () => {
             </li>
           </div>
           <div className="lower">
-            <li className="whitespace-nowrap flex items-center cursor-pointer hover:bg-white/10">
+            <li className="whitespace-nowrap flex items-center cursor-pointer dark:hover:bg-white/10 hover:bg-black/10">
               <span className="p-8 w-16 flex justify-center">
                 <Image
                   src={sun}
@@ -55,7 +55,7 @@ const page = () => {
               </span>
               <span>Theme</span>
             </li>
-            <li className="whitespace-nowrap flex items-center cursor-pointer hover:bg-white/10">
+            <li className="whitespace-nowrap flex items-center cursor-pointer dark:hover:bg-white/10 hover:bg-black/10">
               <span className="p-8 w-16 flex justify-center">
                 <Image
                   src={logout}
