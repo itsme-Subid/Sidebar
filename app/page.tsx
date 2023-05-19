@@ -9,7 +9,7 @@ const page = () => {
   return (
     <main>
       <div className="aside">
-        <ul className="flex flex-col justify-between h-screen w-16 hover:w-fit hover:pr-8 overflow-hidden transition-all dark:border-white/20 border-black/20 border-r-[1px]">
+        <ul className="flex flex-col justify-between h-screen w-16 hover:w-60 overflow-hidden transition-all dark:border-white/20 border-black/20 border-r-[1px]">
           <div className="upper">
             <li className="whitespace-nowrap flex items-center cursor-pointer dark:hover:bg-white/10 hover:bg-black/10">
               <span className="p-8 w-16 flex justify-center">
